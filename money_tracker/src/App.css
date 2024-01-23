@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #17181F;
+  color: #ddd;
+}
+
+main {
+  max-width: 360px;
+  margin: 30px auto;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+h1 span{
+  font-size: 1rem;
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 6px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form input {
+  width: 100%;
+  background-color: transparent;
+  color: #ddd;
+  border: 2px solid #30313d;
+  padding: 2px 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+form input[type="datetime-local"] {
+  color: white;
+  background-color: #7777;
+}
+
+form div.input {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+form button {
+  width: 100%;
+  margin-top: 5px;
+  border: 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 5px;
+  background-color: #ddd;
+}
+
+.trxns {
+  margin-top: 10px;
+}
+
+.trxn {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-top: 1px solid #30313d;
+}
+
+.trxn:first-child {
+  border-top: 0;
+}
+
+.trxn .name {
+  font-size: 1rem;
+}
+
+.trxn .description {
+  font-size: .7rem;
+  color: #888;
+}
+
+.right {
+  text-align: right;
+}
+
+.price.red {
+  color: red;
+}
+
+.price.green {
+  color: green;
+}
+
+.trxn .datetime {
+  font-size: .7rem;
+}
