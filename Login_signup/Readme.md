@@ -57,7 +57,6 @@ Follow these steps to set up and run the project locally:
       cd server
       npm install
 
-    ```bash
     For the frontend:
       cd client
       npm install
